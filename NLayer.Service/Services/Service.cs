@@ -1,9 +1,9 @@
-﻿using NLayer.Core.Repositories;
+﻿using Microsoft.EntityFrameworkCore;
+using NLayer.Core.Repositories;
 using NLayer.Core.Services;
-using System.Linq.Expressions;
 using NLayer.Core.UnitOfWorks;
-using Microsoft.EntityFrameworkCore;
 using NLayer.Service.Exceptions;
+using System.Linq.Expressions;
 
 namespace NLayer.Service.Services
 {
